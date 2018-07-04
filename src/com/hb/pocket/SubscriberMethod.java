@@ -8,6 +8,8 @@ import java.lang.reflect.Method;
  */
 public class SubscriberMethod {
 
+    private static String TAG = SubscriberMethod.class.getSimpleName();
+
     private Method method;
     private int type;
 

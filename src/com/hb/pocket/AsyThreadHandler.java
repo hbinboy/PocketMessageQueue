@@ -7,6 +7,9 @@ import java.lang.reflect.Method;
  * Created by hb on 03/07/2018.
  */
 public class AsyThreadHandler {
+
+    private static String TAG = AsyThreadHandler.class.getSimpleName();
+
     /**
      * PocketMessageQueue center sigle inistance.
      */

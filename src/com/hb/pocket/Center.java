@@ -174,7 +174,7 @@ public class Center {
     /**
      * Get specical message.
      * @param event
-     * @return
+     * @return      the message object.
      */
     public Object getStaticMessage(Object event) {
         if (staticPostMsg.containsKey(((Class) event).getCanonicalName())) {
@@ -210,7 +210,7 @@ public class Center {
     }
 
     /**
-     * unregister subscriber.
+     * Unregister subscriber.
      * @param subscriber
      */
     public void unregister(Object subscriber) {

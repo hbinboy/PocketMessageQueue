@@ -4,6 +4,9 @@ package com.hb.pocket;
  * Created by hb on 03/07/2018.
  */
 public class Subscription {
+
+    private static String TAG = Subscription.class.getSimpleName();
+
     /**
      * subscriber object.
      */
